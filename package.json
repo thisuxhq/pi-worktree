@@ -1,6 +1,6 @@
 {
   "name": "@thisux/pi-worktree",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Git worktree slash commands for Pi (/worktree ls|add|open|rm|pr)",
   "license": "MIT",
   "type": "module",
