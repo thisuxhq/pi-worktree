@@ -1,0 +1,65 @@
+name: Bug report
+description: Something wrong with /worktree or package install
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. For **security** issues, do not use this form — see [SECURITY.md](https://github.com/thisuxhq/pi-worktree/blob/main/SECURITY.md).
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Install / package load
+        - /worktree ls
+        - /worktree add
+        - /worktree open
+        - /worktree rm
+        - /worktree pr
+        - Completions / help
+        - Docs
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Package version (`npm view @thisux/pi-worktree version`), Pi version (`pi --version`), Git version.
+      placeholder: "@thisux/pi-worktree 1.2.0 · pi 0.81.0 · git 2.x"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Actual behavior (include the exact slash command and UI notification text if any).
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Prefer a minimal git repo layout (main checkout + any existing worktrees).
+      placeholder: |
+        1. cd into a git repo
+        2. pi
+        3. /worktree add feature/foo
+        4. ...
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra context
+      description: OS, whether `gh` is installed, path layout, stderr from git, etc.
+    validations:
+      required: false

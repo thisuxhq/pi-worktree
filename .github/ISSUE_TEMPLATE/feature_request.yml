@@ -1,0 +1,29 @@
+name: Feature request
+description: Propose a new /worktree capability or safer default
+title: "[feat] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: What are you trying to do in a Pi session that is awkward today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Command shape, flags, layout changes, or UX. Keep safety in mind (confirm paths, no silent force).
+      placeholder: |
+        e.g. /worktree base <branch> to set default start-point
+        e.g. optional worktree path under a configurable parent dir
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Git aliases, shell scripts, other Pi packages, etc.
+    validations:
+      required: false

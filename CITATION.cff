@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "@thisux/pi-worktree"
+authors:
+  - name: "THISUX Private Limited"
+    website: "https://github.com/thisuxhq"
+license: MIT
+repository-code: "https://github.com/thisuxhq/pi-worktree"
+url: "https://github.com/thisuxhq/pi-worktree"
+abstract: "Git worktree slash commands for the Pi coding agent (/worktree ls|add|open|rm|pr)."
+keywords:
+  - pi
+  - pi-coding-agent
+  - git
+  - worktree
+  - extension
+date-released: "2026-07-21"
+version: "1.2.0"

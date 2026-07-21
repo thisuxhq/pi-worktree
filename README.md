@@ -1,5 +1,9 @@
 # @thisux/pi-worktree
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Copyright](https://img.shields.io/badge/©-THISUX%20Private%20Limited-111111.svg)](LICENSE)
+[![npm](https://img.shields.io/npm/v/@thisux/pi-worktree.svg)](https://www.npmjs.com/package/@thisux/pi-worktree)
+
 Git worktree slash commands for [Pi](https://pi.dev).
 
 Create, list, open, remove, and PR-checkout worktrees without leaving the session.
@@ -92,11 +96,13 @@ Fetches `pull/42/head` and creates a worktree on the PR head branch.
 
 - [npm](https://www.npmjs.com/package/@thisux/pi-worktree)
 - [pi package catalog](https://pi.dev/packages)
+- [Contributing](CONTRIBUTING.md)
+- [Security](SECURITY.md)
+- [Changelog](CHANGELOG.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
 - [Repo](https://github.com/thisuxhq/pi-worktree)
 
 ## Release flow
-
-Same automation as [@thisux/pi-double-esc-clear](https://github.com/thisuxhq/pi-double-esc-clear):
 
 1. Land PRs on `main` with [conventional commits](https://www.conventionalcommits.org/) (`feat:`, `fix:`, `docs:`, …).
 2. [release-please](https://github.com/googleapis/release-please) opens a release PR (version bump + `CHANGELOG.md`).
@@ -108,4 +114,8 @@ Needs repo secret `NPM_TOKEN` (npm automation token allowed to publish under `@t
 
 ## License
 
-MIT · [ThisUX](https://thisux.com/)
+Copyright © 2026 [THISUX Private Limited](https://github.com/thisuxhq).
+
+Released under the [MIT License](LICENSE). You may use, modify, and distribute
+this project for personal and commercial purposes, provided the copyright and
+permission notice are retained.
