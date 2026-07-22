@@ -5,6 +5,13 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.1](https://github.com/thisuxhq/pi-worktree/compare/pi-worktree-v1.2.0...pi-worktree-v1.2.1) (2026-07-21)
+
+
+### Documentation
+
+* add THISUX community health files and MIT license ([4300a5b](https://github.com/thisuxhq/pi-worktree/commit/4300a5beda3d68bbb159c4eb093d36ada76729e8))
+
 ## [1.2.0](https://github.com/thisuxhq/pi-worktree/releases/tag/pi-worktree-v1.2.0) - 2026-07-21
 
 ### Added
